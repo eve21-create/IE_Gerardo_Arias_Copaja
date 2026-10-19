@@ -642,8 +642,27 @@ textarea.form-control {
   min-height: 110px;
 }
 
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
 @media (min-width: 768px) {
   .contact-wrapper {
     grid-template-columns: 1fr 1.2fr;
+  }
+}
+
+.card-flex-responsive {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .card-flex-responsive {
+    grid-template-columns: 1fr auto;
   }
 }
